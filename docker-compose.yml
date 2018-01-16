@@ -3,16 +3,16 @@ services:
   postgres:
     image: postgres:9.6.3
     ports:
-      - 33335:5432
+      - 33339:5432
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: property_rental
+      POSTGRES_DB: payments
   users:
-    image: rsobnb/property_rental
+    image: rsobnb/payments
     ports:
-      - 8080:8080
+      - 8086:8086
     environment:
-      KUMULUZEE_DATASOURCES0_CONNECTIONURL: jdbc:postgresql://172.17.0.1:33335/property_rental
+      KUMULUZEE_DATASOURCES0_CONNECTIONURL: jdbc:postgresql://172.17.0.1:33339/payments
     depends_on:
       - postgres

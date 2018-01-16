@@ -1,0 +1,9 @@
+si/fri/rso/rsobnb/payments/api/exceptionmappers/NotFoundExceptionMapper.class
+si/fri/rso/rsobnb/payments/api/configuration/RestProperties.class
+si/fri/rso/rsobnb/payments/api/producers/JacksonProducer.class
+si/fri/rso/rsobnb/payments/api/resources/PaymentsResource.class
+si/fri/rso/rsobnb/payments/api/dtos/ApiError.class
+si/fri/rso/rsobnb/payments/api/PaymentsApplication.class
+META-INF/services/javax.ws.rs.core.Application
+si/fri/rso/rsobnb/payments/api/interceptors/LogContextInterceptor.class
+si/fri/rso/rsobnb/payments/api/health/PaymentServiceHealthCheck.class

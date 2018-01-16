@@ -1,0 +1,8 @@
+/Users/jernejkozelj/FAKS/2.letnik/1.semester/RSO/payments/api/src/main/java/si/fri/rso/rsobnb/payments/api/configuration/RestProperties.java
+/Users/jernejkozelj/FAKS/2.letnik/1.semester/RSO/payments/api/src/main/java/si/fri/rso/rsobnb/payments/api/resources/PaymentsResource.java
+/Users/jernejkozelj/FAKS/2.letnik/1.semester/RSO/payments/api/src/main/java/si/fri/rso/rsobnb/payments/api/interceptors/LogContextInterceptor.java
+/Users/jernejkozelj/FAKS/2.letnik/1.semester/RSO/payments/api/src/main/java/si/fri/rso/rsobnb/payments/api/dtos/ApiError.java
+/Users/jernejkozelj/FAKS/2.letnik/1.semester/RSO/payments/api/src/main/java/si/fri/rso/rsobnb/payments/api/health/PaymentServiceHealthCheck.java
+/Users/jernejkozelj/FAKS/2.letnik/1.semester/RSO/payments/api/src/main/java/si/fri/rso/rsobnb/payments/api/producers/JacksonProducer.java
+/Users/jernejkozelj/FAKS/2.letnik/1.semester/RSO/payments/api/src/main/java/si/fri/rso/rsobnb/payments/api/exceptionmappers/NotFoundExceptionMapper.java
+/Users/jernejkozelj/FAKS/2.letnik/1.semester/RSO/payments/api/src/main/java/si/fri/rso/rsobnb/payments/api/PaymentsApplication.java

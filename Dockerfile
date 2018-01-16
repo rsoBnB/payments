@@ -4,8 +4,8 @@ RUN mkdir /app
 
 WORKDIR /app
 
-ADD ./api/target/property_rental-api-1.0.0-SNAPSHOT.jar /app
+ADD ./api/target/payments-api-1.0.0-SNAPSHOT.jar /app
 
-EXPOSE 8082
+EXPOSE 8086
 
-CMD ["java", "-jar", "property_rental-api-1.0.0-SNAPSHOT.jar"]
+CMD ["java", "-jar", "payments-api-1.0.0-SNAPSHOT.jar"]

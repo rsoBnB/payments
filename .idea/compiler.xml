@@ -6,12 +6,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="payments-api" />
+        <module name="payments-models" />
+        <module name="payments-services" />
+        <module name="property_lease-api" />
+        <module name="property_lease-models" />
+        <module name="property_lease-services" />
         <module name="real_estates-api" />
         <module name="real_estates-models" />
         <module name="real_estates-services" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="payments" target="1.8" />
+      <module name="payments-api" target="1.8" />
+      <module name="payments-models" target="1.8" />
+      <module name="payments-services" target="1.8" />
+      <module name="property_lease" target="1.8" />
+      <module name="property_lease-api" target="1.8" />
+      <module name="property_lease-models" target="1.8" />
+      <module name="property_lease-services" target="1.8" />
       <module name="real_estates" target="1.8" />
       <module name="real_estates-api" target="1.8" />
       <module name="real_estates-models" target="1.8" />

@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/property_rental.iml" filepath="$PROJECT_DIR$/property_rental.iml" />
-      <module fileurl="file://$PROJECT_DIR$/api/property_rental-api.iml" filepath="$PROJECT_DIR$/api/property_rental-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/models/property_rental-models.iml" filepath="$PROJECT_DIR$/models/property_rental-models.iml" />
-      <module fileurl="file://$PROJECT_DIR$/services/property_rental-services.iml" filepath="$PROJECT_DIR$/services/property_rental-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payments.iml" filepath="$PROJECT_DIR$/payments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api/payments-api.iml" filepath="$PROJECT_DIR$/api/payments-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/models/payments-models.iml" filepath="$PROJECT_DIR$/models/payments-models.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/payments-services.iml" filepath="$PROJECT_DIR$/services/payments-services.iml" />
     </modules>
   </component>
 </project>
