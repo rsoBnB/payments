@@ -8,7 +8,7 @@ import javax.persistence.*;
 @NamedQueries(value =
         {
                 @NamedQuery(name = "Payment.getAll", query = "SELECT r FROM payment r"),
-                @NamedQuery(name = "Payment.findByUser", query = "SELECT r FROM payment r WHERE r.leaseId = " + ":leaseId")
+                @NamedQuery(name = "Payment.findByUser", query = "SELECT r FROM payment r WHERE r.realEstateId = " + ":realEstateId")
         })
 @UuidGenerator(name = "idGenerator")
 public class Payment {
@@ -16,6 +16,9 @@ public class Payment {
     @Id
     @GeneratedValue(generator = "idGenerator")
     private String id;
+
+    @Column(name = "realestate_id")
+    private String realEstateId;
 
     @Column(name = "lease_id")
     private String leaseId;
@@ -32,6 +35,14 @@ public class Payment {
 
     public void setId(String id) {
         this.id = id;
+    }
+
+    public String getRealEstateId() {
+        return realEstateId;
+    }
+
+    public void setRealEstateId(String realEstateId) {
+        this.realEstateId = realEstateId;
     }
 
     public String getLeaseId() {
