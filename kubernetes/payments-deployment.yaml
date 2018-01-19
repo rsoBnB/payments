@@ -10,7 +10,7 @@ spec:
         app: payments
     spec:
       containers:
-      - image: ggrex/rsobnb-payments:0.2
+      - image: ggrex/rsobnb-payments:0.1
         imagePullPolicy: Always
         name: payments
         env:
